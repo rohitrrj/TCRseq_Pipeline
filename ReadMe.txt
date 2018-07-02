@@ -1,0 +1,1 @@
+This script runs TCR-seq pipeline with following steps.1. Sample Splitting from MiSeq output using sample barcodes2. Read Alignment (Mixcr)3. Read Assembly (Mixcr)4. Export Clones (Mixcr)
