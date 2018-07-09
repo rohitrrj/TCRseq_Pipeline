@@ -1,0 +1,21 @@
+## Set Up the path Variables
+# Raw Data Directory path
+myRawDATADIR="/TestDir/raw/TestRun"
+
+# Data Directory path
+myDATADIR="/TestDir/raw/TestRun"
+
+# Project Directory path
+myPROJDIR="/TestDir/Analysis/TestRun"
+
+# Shell Scripts Directory path
+myQsubScriptDIR="/TestDir/qsub_scripts"
+
+# TCR Scripts Directory path
+myTCRScriptDIR="/TestDir/TCR-seq_Pipeline/TCR_scripts"
+
+# Sample Barcode file
+mySampleFile="${myRawDATADIR}/Test.txt"
+
+# Bash profile Directory path
+myBashProfile="/TestDir/.bash_profile"

@@ -19,14 +19,17 @@ module load java/8u66
 module load python fastx_toolkit/0.0.14
 
 ### Use the bashprofile to set all paths
-source /srv/gsfs0/projects/goronzy/TCR-seq_Pipeline/Claire_Data/scripts/.bash_profile
+source ./conf.txt
+source ${myBashProfile}
 
-myRawDATADIR="/srv/gsfs0/projects/goronzy/TCR-seq_Pipeline/Austin_Twins_Tim/raw/TestRun"
-myDATADIR="/srv/gsfs0/projects/goronzy/TCR-seq_Pipeline/Austin_Twins_Tim/raw/TestRun"
-myPROJDIR="/srv/gsfs0/projects/goronzy/TCR-seq_Pipeline/Austin_Twins_Tim/Analysis/TestRun"
-myQsubScriptDIR="/srv/gsfs0/projects/goronzy/TCR-seq_Pipeline/Austin_Twins_Tim/qsub_scripts"
-myTCRScriptDIR="/srv/gsfs0/projects/goronzy/TCR-seq_Pipeline/TCR-seq_Pipeline/TCR_scripts"
-mySampleFile="${myRawDATADIR}/Test.txt"
+echo "Following are the set paths"
+echo "Bash Profile: ${myBashProfile}"
+echo "Raw Data Dir: ${myRawDATADIR}"
+echo "Data Dir: ${myDATADIR}"
+echo "Project Dir: ${myPROJDIR}"
+echo "Shell Scripts Dir: ${myQsubScriptDIR}"
+echo "TCR Scripts Dir: ${myTCRScriptDIR}"
+echo "Sample Barcode file: ${mySampleFile}"
 
 ##-----------------------------##
 ##create FolderLayout          ##
