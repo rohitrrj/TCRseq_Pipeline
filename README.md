@@ -201,8 +201,15 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Citation
 If you use this pipeline in your research, please cite:
-> Gustafson CE, **Jadhav R**, Cao W, Qi Q, Pegram M, Tian L, Weyand CM, Goronzy JJ. Immune cell repertoires in breast cancer patients after adjuvant chemotherapy. JCI Insight. 2020 Feb 27;5(4):e134569. doi: [10.1172/jci.insight.134569](https://doi.org/10.1172/jci.insight.134569). PMID: [32102986](https://pubmed.ncbi.nlm.nih.gov/32102986/).
+```
+Jadhav RR, Im SJ, Dixit PY, Tso Fan Yiu, Cao L, Sy MD, Lauer GM, Bernard NF, Wood C, Wilson P, Li C, Goronzy JJ. Loss of T cell progenitor reprogramming potential in aging bone marrow niches. JCI Insight. 2020 Apr 9;5(7):e134356. doi: 10.1172/jci.insight.134356. PMID: 32191644; PMCID: PMC7101137.
+```
 
+You can also cite this repository:
+```
+Jadhav R. (2025). TCRseq_Pipeline: A comprehensive pipeline for TCR repertoire analysis.
+GitHub repository: https://github.com/rohitrrj/TCRseq_Pipeline
+```
 
 ## Related Tools
 - [ATACseq_Pipeline](../ATACseq_Pipeline)
