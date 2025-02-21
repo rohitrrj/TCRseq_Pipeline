@@ -201,9 +201,26 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Citation
 If you use this pipeline in your research, please cite:
+
+```bibtex
+@article{jadhav2020loss,
+  title={Loss of T cell progenitor reprogramming potential in aging bone marrow niches},
+  author={Jadhav, Rohit R and Im, Se Jin and Dixit, Priya Y and Tso, Fan Yiu and Cao, Linlin and Sy, Merlin D and Lauer, Geraldine M and Bernard, Nicole F and Wood, Charles and Wilson, Patrick and others},
+  journal={JCI insight},
+  volume={5},
+  number={7},
+  year={2020},
+  publisher={American Society for Clinical Investigation},
+  doi={10.1172/jci.insight.134356},
+  pmid={32191644},
+  pmcid={PMC7101137}
+}
 ```
-Author et al. (Year). TCR-seq Pipeline: A comprehensive processing pipeline for T cell receptor repertoire analysis.
-Repository: https://github.com/yourusername/TCRseq_Pipeline
+
+You can also cite this repository:
+```
+Jadhav R. (2025). TCRseq_Pipeline: A comprehensive pipeline for TCR repertoire analysis.
+GitHub repository: https://github.com/rohitrrj/TCRseq_Pipeline
 ```
 
 ## Related Tools
